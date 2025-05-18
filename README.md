@@ -63,5 +63,5 @@ npm run dev
 
 ## 📧 Contact
 
-Made with 💻 by [Your Name]  
-Email: your@email.com
+Made with 💻 by Vaishnavi  
+Email: officialvaishnavilambu@gmail.com
