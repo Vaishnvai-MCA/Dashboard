@@ -31,18 +31,22 @@ This is a responsive **Dashboard UI** built with [Next.js](https://nextjs.org/),
 
 ---
 
----
-
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+** 1. Clone the repo**
 
-```bash
+bash
 git clone https://github.com/your-username/dashboard-ui.git
 cd dashboard-ui
 
+**2. Install Dependencies**
+bash
 npm install
 
+### 3. Run the app
+bash
 npm run dev
+
+---
 
 Visit http://localhost:3000/dashboard
