@@ -51,3 +51,17 @@ npm run dev
 
 ```
 ### Visit http://localhost:3000/dashboard
+
+---
+
+## 🧱 UI Components Used
+
+- shadcn/ui `sidebar-07`
+- shadcn/ui `dashboard-01`
+  
+---
+
+## 📧 Contact
+
+Made with 💻 by [Your Name]  
+Email: your@email.com
