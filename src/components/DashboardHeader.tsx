@@ -2,10 +2,11 @@
 
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
+import { cn } from "@/lib/utils";
 
 export default function DashboardHeader() {
   return (
-    <div className="sticky top-0 bg-gray-50 z-10 pb-4 mb-6 border-b">
+    <div className={cn("sticky top-0 z-10 pb-4 mb-6 border-b bg-gray-50")}>
       <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <h1 className="text-2xl font-bold text-primary">Articles</h1>
 
@@ -20,7 +21,7 @@ export default function DashboardHeader() {
           </Tabs>
           <Input
             placeholder="Search Title or Keyword..."
-            className="w-full"
+            className={cn("w-full")}
           />
         </div>
       </div>
