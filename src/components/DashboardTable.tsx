@@ -2,8 +2,14 @@
 
 import { articles } from "@/lib/data";
 import { Button } from "@/components/ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { MoreVertical } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export default function DashboardTable() {
   return (
@@ -24,7 +30,7 @@ export default function DashboardTable() {
           {articles.map((article, idx) => (
             <tr
               key={article.id}
-              className={idx % 2 === 0 ? "bg-white" : "bg-gray-50"}
+              className={cn(idx % 2 === 0 ? "bg-white" : "bg-gray-50")}
             >
               <td className="p-3"><input type="checkbox" /></td>
               <td className="p-3 font-medium text-gray-900">{article.title}</td>
